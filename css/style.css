@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.col-12 {
+  border: 2px solid red;
+  padding: 0;
+}
+
+.bg {
+  height: 700px;
+  background-image: url("/images/bg.png");
+  background-size: 100% 100%;
+}
+
+.header {
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */

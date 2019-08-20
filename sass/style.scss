@@ -1,0 +1,26 @@
+$border1: 2px solid red;
+$border2: 2px solid blue;
+$border3: 2px solid green;
+
+$font-golden: 26px;
+$font-menu: 14px; // service dsc, copyright
+$font-welcome: 40px; //header, 
+$font-its: 75px;
+$font-link: 18px; //service header, 
+$font-subheader: 16px;
+
+body {
+    margin: 0;
+}
+.col-12 {
+    border: $border1;
+    padding: 0;
+}
+.bg {
+    height: 700px;
+    background-image: url('/images/bg.png');
+    background-size: 100% 100%;
+}
+.header {
+    position: absolute;
+}
