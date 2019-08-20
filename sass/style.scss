@@ -11,6 +11,7 @@ $font-subheader: 16px;
 
 $font-color1: white;
 $font-color2: #fed136;
+$font-color3: #9b9b9b;
 
 $bg-color: #f7f7f7;
 
@@ -18,10 +19,16 @@ body {
     margin: 0;
     font-size: $font-menu;
 }
+
 .col-12 {
-    border: $border1;
+    //border: $border1;
     padding: 0;
 }
+
+.subheader, .card-text, .itemdesc {
+    color: $font-color3;
+}
+
 // HEADER AND WELCOME SECTION
 .bg {
     height: 700px;
@@ -69,9 +76,13 @@ header li {
 .services, .portfolio {
     min-height: 70vh;
     text-align: center;
+    padding: 0% 10%;
 }
 .services .header, .portfolio .header {
     font-size: $font-welcome;
+}
+.portfolio p .header {
+    margin: none;
 }
 .services .itemheader {
     font-size: $font-link;
@@ -88,11 +99,23 @@ header li {
 .portfolio {
     min-height: 70vh;
     background-color: $bg-color;
+    padding-bottom: 7%;
 }
 .portfolio .card {
     background-color: $font-color1;
 }
-.footer i {
+.card img {
+    width: 100%;
+}
+.card h5 {
+    font-size: $font-link;
+    font-weight: bold;
+}
+
+.footer {
+   text-align: center;
+}
+.icons i {
     text-align: center;
     color: $font-color1;
     background-color: black;
@@ -102,6 +125,6 @@ header li {
     font-size: 15px;
     border-radius: 50%;
 }
-.footer .icons {
-    padding-left: 100px;
+.footer {
+    padding: 3% 10%;
 }
