@@ -66,11 +66,11 @@ header li {
     font-size: $font-its;
 }
 // SERVICES 
-.services {
-    height: 500px;
+.services, .portfolio {
+    min-height: 70vh;
     text-align: center;
 }
-.services .header {
+.services .header, .portfolio .header {
     font-size: $font-welcome;
 }
 .services .itemheader {
@@ -86,5 +86,22 @@ header li {
 
 // PORTFOLIO
 .portfolio {
+    min-height: 70vh;
     background-color: $bg-color;
+}
+.portfolio .card {
+    background-color: $font-color1;
+}
+.footer i {
+    text-align: center;
+    color: $font-color1;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+.footer .icons {
+    padding-left: 100px;
 }

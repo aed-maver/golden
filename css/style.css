@@ -59,12 +59,12 @@ header li {
   font-size: 75px;
 }
 
-.services {
-  height: 500px;
+.services, .portfolio {
+  min-height: 70vh;
   text-align: center;
 }
 
-.services .header {
+.services .header, .portfolio .header {
   font-size: 40px;
 }
 
@@ -81,6 +81,26 @@ header li {
 }
 
 .portfolio {
+  min-height: 70vh;
   background-color: #f7f7f7;
+}
+
+.portfolio .card {
+  background-color: white;
+}
+
+.footer i {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.footer .icons {
+  padding-left: 100px;
 }
 /*# sourceMappingURL=style.css.map */
