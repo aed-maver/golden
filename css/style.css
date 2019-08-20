@@ -96,6 +96,7 @@ header li {
 
 .portfolio .card {
   background-color: white;
+  margin: 15px;
 }
 
 .card img {
